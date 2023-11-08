@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love Movie</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script2.js" defer></script>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- ローディング画面 -->
+    <div id="loading">
+        <p>Loading...</p>
+        <div id="loading-screen"></div>
+    </div>
+
+    <!-- ナビゲーションメニュー -->
+    <nav>
+        <button id="menu-open" class="btn-menu">
+            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <title>メニューを開く</title>
+                <path clip-rule="evenodd" d="m4.25 8c0-.41421.33579-.75.75-.75h14c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.33579-.75-.75zm0 4c0-.4142.33579-.75.75-.75h14c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.3358-.75-.75zm.75 3.25c-.41421 0-.75.3358-.75.75s.33579.75.75.75h14c.4142 0 .75-.3358.75-.75s-.3358-.75-.75-.75z" fill-rule="evenodd"/>
+            </svg>
+        </button>
+        <div id="menu-panel">
+            <button id="menu-close" class="btn-menu">
+                <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <title>メニューを閉じる</title>
+                    <path clip-rule="evenodd" d="m7.53033 6.46967c-.29289-.29289-.76777-.29289-1.06066 0s-.29289.76777 0 1.06066l4.46963 4.46967-4.46963 4.4697c-.29289.2929-.29289.7677 0 1.0606s.76777.2929 1.06066 0l4.46967-4.4696 4.4697 4.4696c.2929.2929.7677.2929 1.0606 0s.2929-.7677 0-1.0606l-4.4696-4.4697 4.4696-4.46967c.2929-.29289.2929-.76777 0-1.06066s-.7677-.29289-1.0606 0l-4.4697 4.46963z" fill-rule="evenodd"/>
+                </svg>
+            </button>
+            <ul class="menu-list">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="mailto:hello@example.com">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<section class="moviedescription1">
+    <p><a href="index.html">HOME></a>
+        <a href="action.html">
+            アクション</a>
+        </p>
+    <img src="images/img9.jpg">
+    <div class="wrapper">
+        <h2>貞子vs伽椰子</h2>
+        <p>日本を代表とする２大呪霊の頂上決戦、開幕
+          <br>『リング』の貞子と『呪怨』の伽椰子、20世紀から21世紀への変わり目に相次いで出現したホラーヒロインが世紀の最恐対決を繰り広げる。
+          出会うはずの無い２人（＋１匹）が己の総力を賭け全力で呪い合い、プロレス技を炸裂させる！！
+            </p>
+    </div>
+</section>
+
+<section class="moviedescription2">
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6YXCsXL0o34?si=RZOr-Yp2EIN39r9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <a href="sadakovskayako.jp">
+        <p>オフィシャルサイト</p>
+    </a>
+</section>
+
+<table border="1">
+    <tr><th>制作年</th><td>2016年</td></tr>
+    <tr><th>制作国</th><td>日本</td></tr>
+    <tr><th>劇場公開日</th><td>2016年6月18日</td></tr>
+    <tr><th>上映時間</th><td>99分</td></tr>
+    <tr><th>映倫区分</th><td>G</td></tr>
+</table>
+      
+
+<footer>
+    <p>Copyright © ILoveMovie All Rights Reserved</p>
+</footer>
+</body>
+</html>
